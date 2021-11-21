@@ -1,0 +1,67 @@
+/*Abel Mansilla Felipe*/
+body{
+	font-size:1.2rem;
+	background-image: url("https://s1.1zoom.me/b7147/40/Christmas_Holidays_Wood_511426_1920x1080.jpg");
+	margin: 0px;
+	/* width: 1440px; */
+	color: #F9F9EB;
+}
+header
+{
+	background-color: #EB1420;
+	padding:10px;
+	height:80px;
+	font-weight: bold;
+}
+
+header a{
+	text-decoration:none;
+	color: white;
+}
+
+.contenedor{
+	width:95%;
+	/* max-width:850px; */
+	/* margin: 0 auto;/*para centrarlo*/
+}
+
+.loyola{
+	float: left;
+	width: 150px;
+
+}
+
+#flotamiento{
+	float: right;
+}
+
+nav ul{
+	list-style:none; /*Para que no aparezca la simbologia*/
+}
+
+nav ul li{
+	display: inline-block; /*Poner la lista en linea*/
+	padding-left: 10px;
+}
+
+nav ul li a{
+	padding: 20px 10px;
+	display: block;
+	font-size:20px;
+}
+
+main{
+	bottom: auto;
+}
+
+#portal{
+	width: 500px;
+}
+
+footer{
+	background-color: #EB1420;
+	padding: 5px 0px;
+	text-align:center;
+	font-size:13px;
+	margin-top:200px;
+}
