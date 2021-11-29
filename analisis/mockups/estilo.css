@@ -1,57 +1,110 @@
 /*Abel Mansilla Felipe*/
 body{
 	font-size:1.2rem;
-	background-image: url("https://s1.1zoom.me/b7147/40/Christmas_Holidays_Wood_511426_1920x1080.jpg");
+	/* background-image: url("https://s1.1zoom.me/b7147/40/Christmas_Holidays_Wood_511426_1920x1080.jpg"); */
 	margin: 0px;
 	/* width: 1440px; */
 	color: #F9F9EB;
+	background-color: #FF0023;
 }
-header
+
+@font-face {
+	font-family: themillion;
+	src: url(fuente.ttf);
+}
+ span{
+	 font-family: themillion;
+	 font-size: 48px;
+	 float: left;
+	 padding-left: 20px;
+ }
+
+ header{
+ 	background-color: #EB1420;
+ 	overflow: hidden;
+ 	/* box-shadow: 0px 3px 7px black; */
+ 	width: 100%;
+ 	position: fixed;
+	height: 100px;
+ 	top: 0px;
+ 	left: 0px;
+ }
+
+
+ header nav{
+   margin-right: 1%;
+ 	text-align: center;
+   float: right;
+   overflow: hidden;
+ }
+ header nav ul{
+ 	list-style-type: none;
+ }
+ header nav li{
+ 		float: left;
+   line-height: 5.33rem;
+ }
+ header nav a{
+ 	display: block;
+ 	font-weight: bold;
+ 	padding: 0px 0.9rem;
+ 	text-decoration: none;
+ 	transition: all 500ms ease;
+ }
+
+
+/*header
 {
 	background-color: #EB1420;
 	padding:10px;
 	height:80px;
 	font-weight: bold;
-}
-
-header a{
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+}*/
+/*header a{
 	text-decoration:none;
 	color: white;
-}
+}*/
 
-.contenedor{
+/*.contenedor{
 	width:95%;
-	/* max-width:850px; */
-	/* margin: 0 auto;/*para centrarlo*/
-}
+	max-width:850px;
+	 margin: 0 auto;/*para centrarlo
+}*/
 
 .loyola{
 	float: left;
-	width: 150px;
+	width: 190px;
 
 }
 
-#flotamiento{
-	float: right;
+#madera{
+	width: 100%;
+	margin-bottom: 2rem;
+	padding-top: 100px;
+	height: auto;
 }
 
-nav ul{
-	list-style:none; /*Para que no aparezca la simbologia*/
-}
 
-nav ul li{
-	display: inline-block; /*Poner la lista en linea*/
+/*nav ul{
+	list-style:none;
+}*/
+
+/*nav ul li{
+	display: inline-block;
 	padding-left: 10px;
-}
+}*/
 
-nav ul li a{
+/*nav ul li a{
 	padding: 20px 10px;
 	display: block;
 	font-size:20px;
-}
+}*/
 
 main{
-	bottom: auto;
+
 }
 
 #portal{
@@ -59,7 +112,8 @@ main{
 }
 
 footer{
-	background-color: #EB1420;
+	/* background-color: #EB1420; */
+	background-color: #009E28;
 	padding: 5px 0px;
 	text-align:center;
 	font-size:13px;
