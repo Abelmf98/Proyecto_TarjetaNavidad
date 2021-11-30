@@ -4,7 +4,9 @@ body{
 	/* background-image: url("https://s1.1zoom.me/b7147/40/Christmas_Holidays_Wood_511426_1920x1080.jpg"); */
 	margin: 0px;
 	/* width: 1440px; */
-	color: #F9F9EB;
+	/* color: #F9F9EB; */
+	color: white ;
+	font-weight: bold;
 	background-color: #FF0023;
 }
 
@@ -13,14 +15,15 @@ body{
 	src: url(fuente.ttf);
 }
  span{
-	 font-family: themillion;
+	 /* font-family: themillion; */
 	 font-size: 48px;
 	 float: left;
 	 padding-left: 20px;
  }
 
  header{
- 	background-color: #EB1420;
+ 	/* background-color: #EB1420; */
+	background: linear-gradient(to bottom,#EB1420, white);
  	overflow: hidden;
  	/* box-shadow: 0px 3px 7px black; */
  	width: 100%;
@@ -53,26 +56,6 @@ body{
  }
 
 
-/*header
-{
-	background-color: #EB1420;
-	padding:10px;
-	height:80px;
-	font-weight: bold;
-	position: fixed;
-	overflow: hidden;
-	width: 100%;
-}*/
-/*header a{
-	text-decoration:none;
-	color: white;
-}*/
-
-/*.contenedor{
-	width:95%;
-	max-width:850px;
-	 margin: 0 auto;/*para centrarlo
-}*/
 
 .loyola{
 	float: left;
@@ -88,20 +71,6 @@ body{
 }
 
 
-/*nav ul{
-	list-style:none;
-}*/
-
-/*nav ul li{
-	display: inline-block;
-	padding-left: 10px;
-}*/
-
-/*nav ul li a{
-	padding: 20px 10px;
-	display: block;
-	font-size:20px;
-}*/
 
 main{
 
