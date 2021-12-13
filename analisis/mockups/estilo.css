@@ -82,8 +82,10 @@ main{
 #caja{
 	width: 69.44444444444444%; /*width contenedora 1440px width 1000px*/
 	margin: auto;
-	background-color: #15EB4B;
+	/* background-color: #15EB4B; */
+	background: url("https://media.istockphoto.com/vectors/christmas-background-green-color-vector-id1283604692?b=1&k=20&m=1283604692&s=612x612&w=0&h=Lt_Fv4ksIw0UpvbIffFvTJOmXuKmKvL8_lSOXpI3LSo=");
 	position: relative;
+	border-radius: 20px;
 }
 
 #caja div{
@@ -104,9 +106,19 @@ main{
 
 #absoluto{
 	position: absolute;
-	left: 15%; /*left 150px width contenedora 1000px*/
-	top: 18.75em; /*top 300px 1 em 16px*/
+	left: 15%;
+	top: 25em;
 }
+#relative{
+	position: relative;
+	left: 340px;
+	top: 45px;
+}
+
+#relative img{
+	width: 330px;
+}
+
 
 /*contenedor*/
 #contenedor{
@@ -114,6 +126,7 @@ main{
 	background-color: #E80C4B;
 	padding: 1.388888888888889%; /*padding 20px width contenedora 1440px*/
 	margin: 3.125em 0; /*margin 50px 0 1 em 16 px*/
+	border-radius: 20px;
 
 }
 
@@ -121,6 +134,7 @@ main{
 	overflow: hidden;
 	background-color: #00B325;
 	padding: 0.7142857142857143%; /*padding 10px width contenedora 1400px*/
+	border-radius: 20px;
 }
 
 #a div{
@@ -164,7 +178,13 @@ marquee{
 	border: 0;
 	margin: 0;
 	padding: 0;
+	border-radius: 20px;
 
+}
+
+div .button{
+	margin-left: 650px;
+	margin-top: 100px;
 }
 
 
@@ -174,6 +194,17 @@ footer{
 	padding: 0.3125em 0; /*padding 5px 0 1em 16 px*/
 	text-align:center;
 	margin-top: 12.5em; /*margin-top 200px 1em 16 px*/
+}
+
+#copy{
+	background-color: black;
+	/* float: right; */
+}
+
+span{
+	color: #E80C4B;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /*media queries*/
