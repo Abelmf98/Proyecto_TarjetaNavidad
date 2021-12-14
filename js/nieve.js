@@ -24,7 +24,7 @@ $(document).ready(function(){
 function cambiar(){
   $(document).ready(function(){
     $.fn.snow({
-      flakeColor: 'green'
+      flakeColor: '#009E28'
     });
   })
 }

@@ -1,0 +1,239 @@
+/*Abel Mansilla Felipe*/
+body{
+	font-size:1em; /*16px*/
+	margin: 0px;
+	color: white ;
+	font-weight: bold;
+	background-color: #FF0023;
+	font-family: neo-sans;
+}
+
+@font-face{
+	font-family: neo-sans;
+	src: url(neo-sans.otf);
+}
+
+@font-face{
+	font-family: themillion;
+	src: url(fuente.ttf);
+}
+
+ header{
+	background: linear-gradient(to bottom,#EB1420, white);
+ 	overflow: hidden;
+ 	width: 100%;
+ 	position: fixed;
+	height: 6.25em ; /*1 em 16 px height 100 = */
+ 	top: 0px;
+ 	left: 0px;
+	z-index: 1;
+ }
+
+
+header nav{
+	 width: 15.55555555555556%; /*width 224px width contenedora 1440px*/
+	 text-align: center;
+   float: right;
+   overflow: hidden;
+ }
+ header nav ul{
+ 	list-style-type: none;
+ }
+ header nav li{
+ 		float: left;
+    line-height: 6.25em ; /*1 em 16 px height 100 */;
+		width: 8.695652173913043% ;/*width contenedora 184 width 16px  */
+		padding: 8.152173913043478%; /*width contenedora 184 padding 15px*/
+ }
+ header nav a{
+ 	display: block;
+ 	font-weight: bold;
+	width: 100%;
+	height: auto;
+ 	text-decoration: none;
+ }
+
+
+
+.loyola{
+	width: 13.19444444444444%; /*width contenedora 1440px width 190px*/
+}
+
+#madera{
+	width: 100%;
+}
+
+#madera img{
+ width: 100%;
+ height: auto;
+}
+
+
+main{
+	position: relative;
+}
+
+#hdiv{
+	font-family: themillion;
+	text-align: center;
+	background:#FF0023;
+}
+
+#caja{
+	width: 69.44444444444444%; /*width contenedora 1440px width 1000px*/
+	margin: auto;
+	/* background-color: #15EB4B; */
+	background: url("https://media.istockphoto.com/vectors/christmas-background-green-color-vector-id1283604692?b=1&k=20&m=1283604692&s=612x612&w=0&h=Lt_Fv4ksIw0UpvbIffFvTJOmXuKmKvL8_lSOXpI3LSo=");
+	position: relative;
+	border-radius: 20px;
+}
+
+#caja div{
+	width: 30%; /*width contenedora 1000px width 300px*/
+	margin-left: 20%; /*width contenedora 1000px width 200px */
+}
+
+#caja div img{
+	width: 93.33333333333333%; /*width 280px width contenedora 300px*/
+	height: auto;
+	padding: 3.333333333333333% ; /*padding 10px width contenedora 300px*/
+}
+
+#atrevete{
+	position: relative;
+	left:30%; /*left 300px width contenedora 1000px*/
+}
+
+#absoluto{
+	position: absolute;
+	left: 15%;
+	top: 25em;
+}
+#relative{
+	position: relative;
+	left: 340px;
+	top: 45px;
+}
+
+#relative img{
+	width: 330px;
+}
+
+
+/*contenedor*/
+#contenedor{
+	width: 97.22222222222222%; /*width 1400px width contenedora 1440px*/
+	background-color: #E80C4B;
+	padding: 1.388888888888889%; /*padding 20px width contenedora 1440px*/
+	margin: 3.125em 0; /*margin 50px 0 1 em 16 px*/
+	border-radius: 20px;
+
+}
+
+#a{
+	overflow: hidden;
+	background-color: #00B325;
+	padding: 0.7142857142857143%; /*padding 10px width contenedora 1400px*/
+	border-radius: 20px;
+}
+
+#a div{
+	float: left;
+}
+
+#a p{
+	float: left;
+	width: 63.76811594202899%; /*width 880px width 1380px*/
+}
+
+#portal{
+	width: 36.23188405797101%; /*width 500px width contenedora 1380px*/
+}
+
+#portal img{
+	width: 100%;
+	height: auto;
+}
+
+marquee{
+	font-family: themillion;
+	font-weight: bold;
+}
+
+#multimedia{
+	width: 100%;
+	overflow: hidden;
+}
+
+#multimedia div{
+	width: 41.66666666666667%; /*width 600px width contenedora 1440px*/
+	float: left;
+	margin: 0 4.166666666666667%; /*margin 0 60px width contenedora 1440px*/
+	height: 31.25em; /*height 500px 1em 16 px*/
+}
+
+#multimedia div iframe{
+	width: 100%;
+	height: 31.25em; /*height 500px 1em 16px*/
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: 20px;
+
+}
+
+div .button{
+	margin-left: 600px;
+	margin-top: 100px;
+}
+
+
+footer{
+	width: 100%;
+	background-color: #009E28;
+	padding: 0.3125em 0; /*padding 5px 0 1em 16 px*/
+	text-align:center;
+	margin-top: 12.5em; /*margin-top 200px 1em 16 px*/
+}
+
+#copy{
+	background-color: black;
+}
+
+span{
+	color: #E80C4B;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/*media queries*/
+@media(max-width: 1000px)
+{
+	#a div{
+		float: none; /*Le quitamos el flotamiento al texto que está junto a la imagen*/
+	}
+}
+@media (max-width: 768px)
+{
+	#contenedor
+	{
+		font-size: 2em/*Cambiamos el tamaño de la letra del contenedor*/
+	}
+	.loyola
+	{
+		width: 30%; /*Cambiamos el tamaño del logo en el header*/
+	}
+}
+
+@media (max-width: 500px)
+{
+
+	header{
+		position: inherit; /*le quitamos la posición fija*/
+	}
+	footer{
+		font-size: 2em;
+		color: silver; /*cambiamos el color de las letras*/
+	}
+
+}
